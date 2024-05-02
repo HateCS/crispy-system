@@ -81,7 +81,7 @@ if nav == '足球场':
     st.divider()
 
     st.subheader("其余的轨迹图如下所示",divider="rainbow")
-    folder_path = r'.\vis\soccer1'  # 替换为您的文件夹路径
+    folder_path = r'./vis/soccer1'  # 替换为您的文件夹路径
     # 列出文件夹中的所有文件
     file_list = os.listdir(folder_path)
     # 展示每张图片
@@ -102,7 +102,7 @@ if nav == '校园内道路':
     st.image("sushe.png")
 
     st.subheader("部分轨迹图如下所示",divider="rainbow")
-    folder_path = r'.\vis\univ'  # 替换为您的文件夹路径
+    folder_path = r'./vis/univ'  # 替换为您的文件夹路径
     # 列出文件夹中的所有文件
     file_list = os.listdir(folder_path)
     # 展示每张图片
@@ -142,7 +142,7 @@ if nav == '操场':
         st.image("./vis/walk1/pred_19.png",use_column_width=True)
     st.divider()
     st.subheader("其余的轨迹图如下所示",divider="rainbow")
-    folder_path = r'.\vis\walk1'  # 替换为您的文件夹路径
+    folder_path = r'./vis/walk1'  # 替换为您的文件夹路径
     # 列出文件夹中的所有文件
     file_list = os.listdir(folder_path)
     # 展示每张图片
